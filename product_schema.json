@@ -1,0 +1,16 @@
+{
+  "$schema": "http://json-schema.org/draft/2020-12/schema",
+  "title": "product",
+  "description": "A simple product format",
+  "type": "object",
+  "properties": {
+    "productName": {
+      "description": "Product Name.",
+      "type": "string"
+    },
+    "productWeight": {
+      "description": "Product Weight",
+      "type": "string"
+    }
+     }
+ }
